@@ -1,0 +1,52 @@
+Godot 4.7.2-stable (official)
+PASS Title screen starts with gameplay paused
+PASS Four core local audio mappings load without external downloads
+PASS Mute disables sound cues
+PASS Unmute restores sound cues
+PASS Physical arrow mapping: move_left
+PASS Physical arrow mapping: move_right
+PASS Physical arrow mapping: move_up
+PASS Physical arrow mapping: move_down
+PASS Start enters playable state
+PASS Cardinal speed reaches 220 px/s
+PASS Diagonal movement is normalized
+PASS Release decelerates to rest
+PASS Western environment collision blocks knight
+PASS Pause stops flame and enemy simulation
+PASS Protected drain is lower: 0.10 vs 0.25 per second
+PASS Flame restoration clamps to 100
+PASS Insufficient flame rejects ability without cost
+PASS Borrowed Time costs exactly 15 and lasts 3 seconds
+PASS Cooldown rejects repeat activation without extra cost
+PASS Frozen enemy remains stationary for first two seconds
+PASS Enemy resumes when freeze expires
+PASS Pause preserves freeze and cooldown timers
+PASS Zero flame enters failure and pauses simulation
+PASS Failure before checkpoint restarts at entrance with full flame
+PASS Spending the last 15 flame triggers failure, never negative flame
+PASS Hunter telegraphs before attacking weak flame
+PASS Telegraphed attack removes 22 flame
+PASS Walk from entrance to sanctuary with real physics
+PASS Sanctuary automatically activates checkpoint
+PASS E at sanctuary replenishes flame to prevent resource softlock
+PASS Checkpoint retry restores location and full flame
+PASS Final lamp reachable before puzzle completion
+PASS Final lamp rejects activation before western lamps
+PASS Approach closed exit
+PASS Locked exit has real collision
+PASS Reach northwestern lamp
+PASS E lights first lamp
+PASS Reach southwestern lamp
+PASS E lights second lamp
+PASS Reach eastern seal lamp after both western lamps
+PASS Real shadow AI follows into the circle despite strong light avoidance
+PASS Final lamp rejects mobile shadow inside ring
+PASS Frozen shadow outside ring cannot complete puzzle
+PASS Space then E traps shadow and lights final lamp
+PASS Success traps hunter and opens exit
+PASS Puzzle completion restores 35 flame with clamping
+PASS Completed puzzle survives checkpoint restart
+PASS Knight walks through opened gate using collision physics
+PASS Reaching eastern arch shows Stage A success screen
+PASS Play again fully resets puzzle, gate and checkpoint
+50 passed / 0 failed

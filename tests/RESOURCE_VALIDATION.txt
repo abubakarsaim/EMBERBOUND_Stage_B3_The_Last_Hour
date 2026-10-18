@@ -1,0 +1,3 @@
+PASS 224 literal resource references resolve. Original input mappings unchanged; main scene remains forest.tscn.
+PASS All prior scenes, PNGs, WAVs and shared player/flame/Time/projectile/hunter systems retained.
+PASS Every archived source file is non-empty.

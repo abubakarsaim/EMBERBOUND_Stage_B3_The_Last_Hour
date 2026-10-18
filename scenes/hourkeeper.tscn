@@ -1,0 +1,80 @@
+[gd_scene load_steps=20 format=3]
+[ext_resource type="Script" path="res://scripts/boss/boss_controller.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/boss/boss_world.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/shadow.tscn" id="4"]
+[ext_resource type="Script" path="res://scripts/boss/boss_ritual.gd" id="5"]
+[ext_resource type="Script" path="res://scripts/flame_system.gd" id="6"]
+[ext_resource type="Script" path="res://scripts/borrowed_time.gd" id="7"]
+[ext_resource type="Script" path="res://scripts/boss/boss_hud.gd" id="8"]
+[ext_resource type="Script" path="res://scripts/boss/boss_audio.gd" id="9"]
+[ext_resource type="Script" path="res://scripts/corruption.gd" id="10"]
+[ext_resource type="Script" path="res://scripts/boss/boss_effects.gd" id="11"]
+[ext_resource type="Script" path="res://scripts/boss/boss_presentation.gd" id="12"]
+[ext_resource type="Script" path="res://scripts/projectile_manager.gd" id="13"]
+[ext_resource type="Script" path="res://scripts/boss/hourkeeper.gd" id="14"]
+[ext_resource type="Script" path="res://scripts/boss/real_princess.gd" id="15"]
+[ext_resource type="Script" path="res://scripts/boss/boss_dialogue.gd" id="16"]
+[ext_resource type="Script" path="res://scripts/boss/boss_knight.gd" id="17"]
+[ext_resource type="Script" path="res://scripts/boss/dawn_sky.gd" id="18"]
+[ext_resource type="Script" path="res://scripts/boss/boss_patterns.gd" id="19"]
+[node name="Emberbound" type="Node"]
+process_mode = 3
+script = ExtResource("1")
+[node name="World" type="Node2D" parent="."]
+process_mode = 1
+script = ExtResource("2")
+[node name="CircleOfLight" type="Node2D" parent="World"]
+script = ExtResource("5")
+[node name="Shadow" parent="World" instance=ExtResource("4")]
+visible = false
+position = Vector2(1280,1040)
+[node name="Knight" parent="World" instance=ExtResource("3")]
+position = Vector2(1280,1700)
+z_index = 3
+script = ExtResource("17")
+[node name="Flame" type="Node" parent="."]
+script = ExtResource("6")
+[node name="BorrowedTime" type="Node" parent="."]
+script = ExtResource("7")
+[node name="Audio" type="Node" parent="."]
+script = ExtResource("9")
+[node name="HUD" type="CanvasLayer" parent="."]
+layer = 10
+script = ExtResource("8")
+[node name="Corruption" type="Node2D" parent="World"]
+z_index = 0
+script = ExtResource("10")
+[node name="WorldEffects" type="Node2D" parent="World"]
+z_index = 4
+script = ExtResource("11")
+[node name="Presentation" type="CanvasLayer" parent="."]
+layer = 2
+script = ExtResource("12")
+[node name="Projectiles" type="Node2D" parent="World"]
+z_index = 4
+script = ExtResource("13")
+[node name="Hourkeeper" type="Node2D" parent="World"]
+position = Vector2(1280,1040)
+z_index = 3
+script = ExtResource("14")
+[node name="Patterns" type="Node2D" parent="World"]
+z_index = 2
+script = ExtResource("19")
+[node name="RealPrincess" type="Node2D" parent="World"]
+position = Vector2(1280,650)
+z_index = 3
+script = ExtResource("15")
+[node name="CinematicCamera" type="Camera2D" parent="World"]
+position = Vector2(1280,1700)
+enabled = false
+physics_interpolation_mode = 2
+limit_left = 0
+limit_top = 0
+limit_right = 2560
+limit_bottom = 2048
+[node name="Dialogue" type="CanvasLayer" parent="."]
+layer = 15
+script = ExtResource("16")
+[node name="DawnSky" type="CanvasLayer" parent="."]
+script = ExtResource("18")

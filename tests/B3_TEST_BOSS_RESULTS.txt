@@ -1,0 +1,74 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Boss chapter gives immediate control after its skippable arrival
+PASS Real princess is visibly imprisoned and the earned sigil reaches B3
+PASS First boss objective explains the two prison anchors
+PASS Input traversal reaches the west Chrono Anchor through actual arena collisions
+PASS A real telegraphed attack and recovery expose the anchors
+PASS E begins a timed flame channel rather than instantly disabling an anchor
+PASS Stationary channel disables the first prison chain
+PASS Player can cross the clock court to the second anchor
+PASS Both anchors weaken the prison and start the clock-core phase
+PASS HUD automatically advances to the Time barrier objective
+PASS Core focus remains reachable during the live encounter
+PASS Gold hand alignment and Time recovery provide a reachable core opportunity 1
+PASS Standard fifteen-flame Borrowed Time exposes the correctly aligned clock barrier
+PASS Short channel registers core strike 1
+PASS A single Time opening cannot be used for both core strikes
+PASS Gold hand alignment and Time recovery provide a reachable core opportunity 2
+PASS Standard fifteen-flame Borrowed Time exposes the correctly aligned clock barrier
+PASS Short channel registers core strike 2
+PASS Boss defeat leaves a playable rescue mission instead of ending the game
+PASS Boss defeat permanently stops hostile attacks and clears lingering flares
+PASS Actual input reaches the prison's royal lock after victory
+PASS Royal sigil interaction deliberately starts the princess release animation
+PASS Release animation frees the real princess and explains the final dawn mission
+PASS Knight remains controllable and reaches the revealed Eternal Flame pedestal
+PASS First offering interaction explains its cost without accidentally consuming the flame
+PASS Second deliberate interaction earns the final cinematic
+PASS Complete playable mission sequence reaches dawn and ending credits
+PASS Bittersweet ending returns the ember, lays the knight to rest and brings the princess to him
+PASS Sunrise and final EMBERBOUND title render as the earned conclusion
+PASS Ending screen includes actual development credits
+KNOWN_BOSS_ROUTE_SECONDS 44.7666666666654 (known strategy; excludes manual dialogue/cinematic)
+PASS Shielded anchor rejects E with the attack/recovery explanation
+PASS Movement interrupts anchor channel without false progress
+PASS A channel begun inside exposure can finish without an unfair expiry
+PASS Combat flame exhaustion enters the ordinary failure screen
+PASS Partial-anchor checkpoint restores progress and full flame
+PASS Shadow Flare provides 1.1 seconds of warning before any projectile
+PASS Flare locks its warning position rather than following the dodge
+PASS One flare releases with a distinct boss release pose
+PASS Real swept flare collision removes five flame and starts torch-impact feedback
+PASS Post-hit immunity prevents immediate repeated flame damage
+PASS Torch-impact radius penalty expires instead of permanently stacking
+PASS Time freezes active projectile travel and lifetime
+PASS Projectile resumes smooth travel when Time ends
+PASS Clock sweep warns its exact sector for 1.55 seconds
+PASS Sweeping hand inflicts eight flame once, then recovers
+PASS Leaving the warned sweep sector reliably avoids damage
+PASS Time distortion gives 1.65 seconds of distinct cyan warning
+PASS Distortion only slows, never drains flame; its recovery prevents overlapping attacks
+PASS Time drag retains responsive player control at 68 percent speed
+PASS Time drag reliably recovers normal movement
+PASS Freezing away from the royal symbol gives a meaningful failed-interaction hint
+PASS Borrowed Time holds barrier and attack timing while boss idle continues
+PASS Interrupted core channel cannot award a strike
+PASS One freeze opening permits precisely one successful core strike
+PASS Phase-two checkpoint retains both anchors and the first successful strike
+PASS Checkpoint clears projectiles, freeze, slow and interrupted channel state
+PASS Insufficient flame cannot purchase a boss Time opening
+PASS Visible ancient fire restores enough flame to escape ability starvation
+PASS Fire cooldown prevents refill spam without consuming its permanent refuge
+PASS Renewable fire becomes usable after its sixteen-second cooldown
+PASS Rescue checkpoint restores the freed princess and removes prison collision
+PASS Ending can be paused with a visible pause menu
+PASS Ending resumes after pause
+PASS Restart during the ending returns to a clean deliberate-offering checkpoint
+PASS Q skips the ending into completed credits
+PASS Restart after credits cannot leave a zero-flame or frozen-camera softlock
+66 passed / 0 failed
+WARNING: Camera2D overridden to physics process mode due to use of physics interpolation.
+     at: _update_process_callback (scene/2d/camera_2d.cpp:88)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/test_boss.gd:8)

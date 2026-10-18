@@ -1,0 +1,78 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Royal arrival preserves its short cinematic camera
+PASS HUD prominently states the first rescue mission
+PASS Hall gives control with Rescue the Princess as the first mission
+PASS Input route approaches the princess at the throne
+PASS Princess requests the flame at the altar; mission updates with a concrete reason
+PASS Essential mission dialogue stops flame, AI and projectiles
+PASS Input route reaches the requested royal altar
+PASS Altar warns of darkness and gives a reason to restore the mirror instead of surrendering fire
+PASS Altar warning automatically changes the prominent objective to restoring truth
+PASS Input route reaches the living-fire font
+PASS Fire ignites a visible, initially misdirected light path
+PASS First reflector is physically reachable
+PASS Rotating the first face redirects actual beam geometry north into the second reflector
+PASS Input route follows the beam to the second reflector
+PASS Second reflector completes source > I > II > mirror without a hidden item/order condition
+PASS The illuminated royal mirror can be reached from the reflectors
+PASS Examining the restored reflection exposes the imitation and begins the apparition mission
+PASS A single apparition replaces the hunter during the encounter, preventing double attacks
+PASS Mirror exposure automatically advances the HUD to the binding mission
+PASS Player can reach the binding seal while the apparition is active
+PASS Fire ignites the royal seal and creates its gold-heart recovery refuge
+PASS The apparition can be lured fully inside the active light seal
+PASS Existing Borrowed Time spends fifteen flame and immobilizes the apparition
+PASS Final interaction only succeeds after Fire, shadow inside, and Time hold
+PASS Breaking the illusion releases a royal sigil and the short true-princess story
+PASS The sigil has a concrete next use: the chamber remains sealed until the player brings it
+PASS Released sigil automatically gives the real-princess rescue objective
+PASS Input route carries the released sigil to the eastern passage
+PASS Royal sigil interaction unlocks the Hourkeeper passage and commits the final checkpoint
+PASS Independent hall test retains its completion screen; campaign continues to the boss
+KNOWN_MISSION_ROUTE_SECONDS 32.3499999999994 (automated known solution, not human first-time pacing)
+PASS Final passage retry preserves sigil use and starts at the opened doorway
+PASS Checkpoint clears flares, temporary time and attack counters
+PASS Independent new hall run clears all mission progress
+PASS Preserved hunter still charges outside early mission refuges
+PASS Borrowed Time retains hunter and old flare freeze behavior in the revised hall
+PASS Premature mirror interaction explains why it cannot reveal anything yet
+PASS Mission order has a narrative explanation; the font cannot bypass the altar warning
+PASS Lighting the mirror font uses fire without an arbitrary added flame fee
+PASS An already-burning font rekindles safely without replaying the full ignition
+PASS All sixteen orientations were traced: exactly the geometrically aligned path illuminates the mirror
+PASS Flame exhaustion still enters failure in the mirror mission
+PASS Replay cannot bypass a zero-flame failure
+PASS Altar checkpoint remembers partial reflector work after failure
+PASS Mission retry restores full flame at its new checkpoint instead of repeating the chapter
+PASS Nearby reflector always advertises its E rotation control
+PASS An idle hint explains light redirection without listing orientation numbers
+PASS Original hall boundary still blocks movement
+PASS Original gothic column bases keep their physical collision
+PASS Apparition gives a full visible one-second warning before firing
+PASS Apparition aims at the warning location rather than homing after a dodge
+PASS The attack has a readable recovery window
+PASS Moving off the red mark avoids flame damage
+PASS An undodged apparition flare hits the existing flame for five plus ordinary depletion
+PASS A hit triggers temporary torch flicker/shrink and damage immunity
+PASS Brief immunity prevents stacked instant damage
+PASS The temporary torch radius penalty expires instead of stacking permanently
+PASS Time holds both the hostile apparition and its flying flare
+PASS Pause preserves encounter, ability and flame timers
+PASS Exposed-mirror checkpoint restores the encounter without repeating the light puzzle
+PASS Encounter retry starts clean, without duplicate attacks or frozen state
+PASS Low-flame seal activation guarantees an affordable standard Borrowed Time attempt
+PASS Outside-ring binding fails with a useful hint and no additional flame penalty
+PASS A live shadow in the seal still requires meaningful Time activation
+PASS Binding starts the protected, short illusion-breaking sequence
+PASS Retry during transformation resumes at the ignited seal checkpoint
+PASS Interrupted reveal resets alpha, dark wash and camera feedback
+PASS Interrupted reveal grants no premature sigil and duplicates no projectiles
+PASS The player can read mission objectives/dialogue without being attacked or losing flame
+PASS Ending dialogue restores control with five seconds of attack grace
+PASS Repeated mission restarts leave one audio director and one apparition controller
+70 passed / 0 failed
+WARNING: Camera2D overridden to physics process mode due to use of physics interpolation.
+     at: _update_process_callback (scene/2d/camera_2d.cpp:88)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/test_royal.gd:3)

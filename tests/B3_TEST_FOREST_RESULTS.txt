@@ -1,0 +1,67 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Forest is the opening menu, with gameplay paused
+PASS Menu exposes campaign start and independent shrine/hall/boss testing
+PASS Forest starts under immediate control with entrance checkpoint
+PASS Original trees/ruins have collision and a bounded navigation grid
+PASS Original local forest ambience starts and loops
+PASS Footstep and rune feedback load locally
+PASS Forest retains responsive A3 movement speed
+PASS Forest diagonal movement remains normalized
+PASS Movement decelerates to rest
+PASS Forest boundary physically blocks the knight
+PASS Forest hunter charges a Shadow Flare outside sacred ground
+PASS Forest flare flies and damages the existing flame resource
+PASS Borrowed Time holds forest hunter and active flares
+PASS Forest pause freezes combat and flame timers
+PASS Retry clears projectiles, freeze and temporary torch damage
+PASS Watchfire creates an eighteen-second sacred refuge
+PASS Repeated interaction does not replay a burning watchfire's ignition
+PASS Temporary watchfire protection expires
+PASS Knight firelight reveals and records the nearby ROOT symbol
+PASS Reading ward suppresses ranged attacks and clears incoming flares
+PASS Sacred clue reading also rejects close flame strikes
+PASS Reading communicates explicit logical order
+PASS Corruption cannot obscure a sacred rune
+PASS Forest corruption works beyond the old shrine's rectangle
+PASS Entrance retry restores flame and remembers discovered inscriptions
+PASS Brazier gate requires all discoverable clues, preventing blind guessing
+PASS Correct partial brazier progress survives entrance checkpoint retry
+PASS Brazier court repels attacks and corruption during puzzle interaction
+PASS Actual input traverses ruined path from watchfire to root memorial
+PASS First landmark discovers only its own clue
+PASS Actual input reaches the fallen bell via the northern road
+PASS Second landmark records BELL / SECOND
+PASS Actual input follows the eastern road to the royal tomb
+FOREST_HUNTER_AT_LAST_CLUE distance=628.706359863281 shots=3
+PASS All three clues are discoverable and retained in the visible journal
+PASS Hunter actively fires and leaves bounded corruption during the complete exploration route
+PASS Actual input reaches the brazier court without maze backtracking
+PASS Closed thorn gate physically blocks progression
+PASS Player can reach the crown brazier before solving
+PASS Wrong order gives feedback with no flame penalty
+PASS Input route plus ROOT > BELL > CROWN solves all braziers
+PASS Completion opens gate, restores fire and commits post-puzzle checkpoint
+PASS All three braziers ignite and the magical gate has audio feedback
+SCRIPTED_FOREST_TRAVERSAL_SECONDS 49.9166666666651 (known route; excludes first-time discovery decisions)
+PASS Post-puzzle retry respawns at court and retains solved gate
+PASS Checkpoint does not duplicate enemies or projectiles
+PASS Zero flame triggers forest failure
+PASS Opened gate can be crossed using collision physics
+PASS Forest automatically transitions into the original playable shrine
+PASS Chapter handoff retains independent audio settings
+PASS Scene transition leaves exactly one audio director
+PASS Chapter handoff carries flame and creates no stale attacks
+PASS Campaign shrine remains traversable with original movement and checkpoint
+PASS Campaign reaches second western shrine lamp
+PASS Campaign reaches shrine's final sealing lamp
+PASS Existing Circle of Light remains solvable after forest progression
+PASS Campaign shrine leads automatically to the Royal Hall
+PASS Victory Play Again starts a fresh forest immediately, clearing old puzzle progress
+PASS Campaign title returns to the forest menu
+PASS Independent shrine development entry remains available
+58 passed / 0 failed
+WARNING: Camera2D overridden to physics process mode due to use of physics interpolation.
+     at: _update_process_callback (scene/2d/camera_2d.cpp:88)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/test_forest.gd:17)

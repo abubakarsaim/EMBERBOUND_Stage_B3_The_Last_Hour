@@ -1,0 +1,93 @@
+PASS Earlier ZIPs unchanged:
+{
+  "EMBERBOUND_Stage_B2_Mission_Redesign.zip": "996f6a63e0296cea43f8debb34b40cc26c69a9ef1b84dadba04b3101dd3b57be",
+  "EMBERBOUND_Stage_B2_Royal_Hall.zip": "f700f4e2c92a40aec8be22c5f7df2083cd5c5640ebfb0ad7c1769e6d952c8a05",
+  "EMBERBOUND_Stage_B1_Cursed_Forest.zip": "ffbafc95c783367c4afd2dd86002fe0184fb428d55fb3745f7c67bc84ea671dd"
+}
+Permitted chapter/menu integration edits:
+scripts/royal/royal_hud.gd
+scripts/royal/royal_controller.gd
+scripts/forest/journey.gd
+scripts/forest/forest_controller.gd
+scripts/forest/forest_hud.gd
+PASS Byte-identical foundation resource: scripts/meter.gd
+PASS Byte-identical foundation resource: scripts/circle_puzzle.gd
+PASS Byte-identical foundation resource: scripts/flame_system.gd
+PASS Byte-identical foundation resource: scripts/shadow_hunter.gd
+PASS Byte-identical foundation resource: scripts/shadow_flare.gd
+PASS Byte-identical foundation resource: scripts/lamp.gd
+PASS Byte-identical foundation resource: scripts/player.gd
+PASS Byte-identical foundation resource: scripts/world_effects.gd
+PASS Byte-identical foundation resource: scripts/hud.gd
+PASS Byte-identical foundation resource: scripts/audio.gd
+PASS Byte-identical foundation resource: scripts/projectile_manager.gd
+PASS Byte-identical foundation resource: scripts/presentation.gd
+PASS Byte-identical foundation resource: scripts/environment.gd
+PASS Byte-identical foundation resource: scripts/borrowed_time.gd
+PASS Byte-identical foundation resource: scripts/pixel_art.gd
+PASS Byte-identical foundation resource: scripts/corruption.gd
+PASS Byte-identical foundation resource: scripts/game_controller.gd
+PASS Byte-identical foundation resource: scenes/circle_puzzle.tscn
+PASS Byte-identical foundation resource: scenes/shadow_flare.tscn
+PASS Byte-identical foundation resource: scenes/main.tscn
+PASS Byte-identical foundation resource: scenes/player.tscn
+PASS Byte-identical foundation resource: scenes/royal_hall.tscn
+PASS Byte-identical foundation resource: scenes/shadow.tscn
+PASS Byte-identical foundation resource: scenes/forest.tscn
+PASS Byte-identical foundation resource: scenes/lamp.tscn
+PASS Byte-identical foundation resource: assets/icon.svg
+PASS Byte-identical foundation resource: assets/atmosphere.gdshader
+PASS Byte-identical foundation resource: scripts/royal/princess.gd
+PASS Byte-identical foundation resource: scripts/royal/royal_art.gd
+PASS Byte-identical foundation resource: scripts/royal/royal_world.gd
+PASS Byte-identical foundation resource: scripts/royal/royal_effects.gd
+PASS Byte-identical foundation resource: scripts/royal/apparition_encounter.gd
+PASS Byte-identical foundation resource: scripts/royal/royal_audio.gd
+PASS Byte-identical foundation resource: scripts/royal/royal_mystery.gd
+PASS Byte-identical foundation resource: scripts/royal/royal_presentation.gd
+PASS Byte-identical foundation resource: scripts/royal/dialogue.gd
+PASS Byte-identical foundation resource: scripts/forest/forest_effects.gd
+PASS Byte-identical foundation resource: scripts/forest/forest_world.gd
+PASS Byte-identical foundation resource: scripts/forest/forest_art.gd
+PASS Byte-identical foundation resource: scripts/forest/rune_stone.gd
+PASS Byte-identical foundation resource: scripts/forest/forest_brazier.gd
+PASS Byte-identical foundation resource: scripts/forest/brazier_puzzle.gd
+PASS Byte-identical foundation resource: scripts/forest/forest_audio.gd
+PASS Byte-identical foundation resource: assets/royal/broken_window.png
+PASS Byte-identical foundation resource: assets/royal/column.png
+PASS Byte-identical foundation resource: assets/royal/torn_banner.png
+PASS Byte-identical foundation resource: assets/royal/princess_idle.png
+PASS Byte-identical foundation resource: assets/royal/false_princess_idle.png
+PASS Byte-identical foundation resource: assets/royal/throne.png
+PASS Byte-identical foundation resource: assets/audio/launch.wav
+PASS Byte-identical foundation resource: assets/audio/fire_loop.wav
+PASS Byte-identical foundation resource: assets/audio/royal_revelation.wav
+PASS Byte-identical foundation resource: assets/audio/gate.wav
+PASS Byte-identical foundation resource: assets/audio/royal_ambience.wav
+PASS Byte-identical foundation resource: assets/audio/time_end.wav
+PASS Byte-identical foundation resource: assets/audio/low_flame.wav
+PASS Byte-identical foundation resource: assets/audio/exploration.wav
+PASS Byte-identical foundation resource: assets/audio/illusion_distort.wav
+PASS Byte-identical foundation resource: assets/audio/dialogue_tick.wav
+PASS Byte-identical foundation resource: assets/audio/royal_mirror.wav
+PASS Byte-identical foundation resource: assets/audio/ignition.wav
+PASS Byte-identical foundation resource: assets/audio/freeze.wav
+PASS Byte-identical foundation resource: assets/audio/wrong_order.wav
+PASS Byte-identical foundation resource: assets/audio/royal_passage.wav
+PASS Byte-identical foundation resource: assets/audio/success.wav
+PASS Byte-identical foundation resource: assets/audio/checkpoint.wav
+PASS Byte-identical foundation resource: assets/audio/revelation_finish.wav
+PASS Byte-identical foundation resource: assets/audio/royal_door.wav
+PASS Byte-identical foundation resource: assets/audio/charge.wav
+PASS Byte-identical foundation resource: assets/audio/royal_seal.wav
+PASS Byte-identical foundation resource: assets/audio/forest_ambience.wav
+PASS Byte-identical foundation resource: assets/audio/royal_music.wav
+PASS Byte-identical foundation resource: assets/audio/impact.wav
+PASS Byte-identical foundation resource: assets/audio/rune.wav
+PASS Byte-identical foundation resource: assets/audio/footstep.wav
+PASS Byte-identical foundation resource: assets/audio/pursuit.wav
+PASS Byte-identical foundation resource: assets/audio/failure.wav
+PASS Byte-identical foundation resource: assets/forest/twisted_tree_2.png
+PASS Byte-identical foundation resource: assets/forest/broken_pillar.png
+PASS Byte-identical foundation resource: assets/forest/twisted_tree_0.png
+PASS Byte-identical foundation resource: assets/forest/twisted_tree_1.png

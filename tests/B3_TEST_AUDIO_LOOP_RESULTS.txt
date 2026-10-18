@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Both stems remain playing after crossing their loop boundary
+PASS Both stem playback positions wrap to the beginning
+PASS Music stems remain synchronized within one audio block
+PASS Danger layer ramps up and down rather than switching abruptly
+PASS Menu fade reaches silence and stops both music players
+WARNING: Camera2D overridden to physics process mode due to use of physics interpolation.
+     at: _update_process_callback (scene/2d/camera_2d.cpp:88)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/test_audio_loop.gd:12)

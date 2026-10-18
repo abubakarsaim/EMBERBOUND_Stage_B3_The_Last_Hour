@@ -1,0 +1,100 @@
+{
+  "hour_clock": {
+    "seconds": 24.0,
+    "peak": 0.256466121728881,
+    "rms": 0.0666606193175413,
+    "loop": true,
+    "join_step": 0.0
+  },
+  "hour_battle": {
+    "seconds": 24.0,
+    "peak": 0.22635659565506572,
+    "rms": 0.04563434797141827,
+    "loop": true,
+    "join_step": 0.0
+  },
+  "hour_rescue": {
+    "seconds": 24.0,
+    "peak": 0.17337835027399587,
+    "rms": 0.042019761244280265,
+    "loop": true,
+    "join_step": 0.0
+  },
+  "hour_dawn": {
+    "seconds": 24.0,
+    "peak": 0.24329005357508404,
+    "rms": 0.06506909632666444,
+    "loop": true,
+    "join_step": 0.0
+  },
+  "anchor_break": {
+    "seconds": 1.1,
+    "peak": 0.136329596597461,
+    "rms": 0.036032050315805995,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "core_expose": {
+    "seconds": 0.6999546485260771,
+    "peak": 0.0861318683621069,
+    "rms": 0.03185301350924184,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "core_hit": {
+    "seconds": 0.9,
+    "peak": 0.17321498959246726,
+    "rms": 0.03706914113060485,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "clock_sweep": {
+    "seconds": 1.6,
+    "peak": 0.2883049075968337,
+    "rms": 0.05173709031883744,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "time_pulse": {
+    "seconds": 1.7,
+    "peak": 0.14476493426956188,
+    "rms": 0.05124884426036138,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "prison_open": {
+    "seconds": 1.8,
+    "peak": 0.19321304297084207,
+    "rms": 0.038553883859386504,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "flame_return": {
+    "seconds": 2.6,
+    "peak": 0.1740054792367003,
+    "rms": 0.043573311000197436,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "clock_awaken": {
+    "seconds": 3.0,
+    "peak": 0.2908532116893182,
+    "rms": 0.043798276128008864,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "boss_fall": {
+    "seconds": 2.299954648526077,
+    "peak": 0.26094702706804856,
+    "rms": 0.07716261666330954,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "clock_lock": {
+    "seconds": 0.34997732426303857,
+    "peak": 0.04286006323758377,
+    "rms": 0.008443672470213371,
+    "loop": false,
+    "join_step": 0.0
+  }
+}

@@ -1,0 +1,30 @@
+Godot 4.7.2-stable (official)
+PASS Knight has three directional views and four gait frames per view
+PASS Knight is authored on a real 40 by 48 pixel canvas
+PASS Hunter has six discrete animated shroud frames
+PASS Knight uses nearest texture filtering
+PASS Physics interpolation is enabled for smoother rendered motion
+PASS Braking is faster than acceleration for responsive controls
+PASS Hunter path can leave visible corruption on ordinary stone
+PASS Corruption simulation does not change flame or deal damage
+PASS Sanctuary resists corruption even before checkpoint activation
+PASS Corruption does not stamp outside the playable courtyard
+PASS An unlit lamp does not incorrectly protect its surroundings
+PASS Lighting a lamp cleanses existing nearby corruption
+PASS Lit lamps resist newly emitted corruption
+PASS Completed circle rejects corruption inside its sacred barrier
+PASS Stain memory reaches but never exceeds the 560-cell cap
+PASS Trail eviction keeps its dictionary and insertion queue consistent
+PASS Restart clears corruption from the previous attempt
+PASS Frozen hunter emits no new corruption
+PASS Frozen hunter also stops its shroud animation clock
+PASS Borrowed Time triggers knight cast feedback and a world shockwave
+PASS Pause stops corruption and world presentation clocks
+PASS Knight has explicit damage feedback
+PASS Restart clears old hurt and cast effects
+PASS Particle, shockwave and caption budgets remain bounded
+PASS Restart clears transient world feedback
+PASS Nearby lamp exposes its E interaction highlight
+PASS Lamp ignition starts a visible activation pulse
+PASS Atmosphere shader is local and attached
+28 passed / 0 failed

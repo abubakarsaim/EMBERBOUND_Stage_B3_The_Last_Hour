@@ -1,0 +1,22 @@
+PASS Eighteen scripted rendered captures inspected. Menu spacing and boss close-range framing corrected; cinematic interaction prompts hidden.
+PASS All four final missions and sunrise/credits rendered. Final state: phase COMPLETE (5), rescued true, dawn 1.0, flow SUCCESS (4).
+Explicit fixture positioning/state and overview/attack zoom are used for visual inspection; ordinary gameplay remains at normal camera scale.
+Linux Mesa Compatibility renderer, virtual X11 display, Dummy audio. No Windows, human playthrough, measured FPS or audible-quality claim.
+CAPTURE 01_updated_menu.png
+CAPTURE 02_arrival.png
+CAPTURE 03_arena_overview_fixture.png
+CAPTURE 04_exposed_anchor.png
+CAPTURE 05_flame_channel.png
+CAPTURE 06_flare_warning.png
+CAPTURE 07_sweep_warning.png
+CAPTURE 08_time_distortion.png
+CAPTURE 09_clock_alignment.png
+CAPTURE 10_time_exposes_core.png
+CAPTURE 11_prison_royal_lock.png
+CAPTURE 12_princess_release.png
+CAPTURE 13_rescue_dialogue.png
+CAPTURE 14_final_offering_warning.png
+CAPTURE 15_flame_offering.png
+CAPTURE 16_bittersweet_farewell.png
+CAPTURE 17_sunrise.png
+CAPTURE 18_ending_credits.png

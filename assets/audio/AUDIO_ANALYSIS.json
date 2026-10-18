@@ -1,0 +1,114 @@
+{
+  "exploration": {
+    "samples": 529200,
+    "seconds": 24.0,
+    "peak": 0.2967766279819969,
+    "rms": 0.0933802791916321,
+    "loop": true,
+    "join_step": 0.0
+  },
+  "pursuit": {
+    "samples": 529200,
+    "seconds": 24.0,
+    "peak": 0.29093910886605145,
+    "rms": 0.0415120155543379,
+    "loop": true,
+    "join_step": 0.0
+  },
+  "fire_loop": {
+    "samples": 88200,
+    "seconds": 4.0,
+    "peak": 0.44126678092338484,
+    "rms": 0.08740104248615914,
+    "loop": true,
+    "join_step": 0.0
+  },
+  "ignition": {
+    "samples": 29767,
+    "seconds": 1.3499773242630386,
+    "peak": 0.71995614807708,
+    "rms": 0.08486632293425707,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "charge": {
+    "samples": 17640,
+    "seconds": 0.8,
+    "peak": 0.21368947535328195,
+    "rms": 0.04509522859069369,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "launch": {
+    "samples": 7497,
+    "seconds": 0.34,
+    "peak": 0.5004879753581061,
+    "rms": 0.06257563645389731,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "impact": {
+    "samples": 11025,
+    "seconds": 0.5,
+    "peak": 0.5391271661485159,
+    "rms": 0.05736071182931527,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "freeze": {
+    "samples": 16537,
+    "seconds": 0.7499773242630385,
+    "peak": 0.16157557589553717,
+    "rms": 0.042647805144322454,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "time_end": {
+    "samples": 9922,
+    "seconds": 0.44997732426303855,
+    "peak": 0.14152398298509564,
+    "rms": 0.05095162048076046,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "low_flame": {
+    "samples": 12127,
+    "seconds": 0.5499773242630386,
+    "peak": 0.11788574487400033,
+    "rms": 0.03354954602699543,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "gate": {
+    "samples": 26460,
+    "seconds": 1.2,
+    "peak": 0.1389499097008526,
+    "rms": 0.02787444046834454,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "success": {
+    "samples": 35280,
+    "seconds": 1.6,
+    "peak": 0.1630057955493009,
+    "rms": 0.03969337580933593,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "checkpoint": {
+    "samples": 15434,
+    "seconds": 0.6999546485260771,
+    "peak": 0.08745852406517074,
+    "rms": 0.030831133730286637,
+    "loop": false,
+    "join_step": 0.0
+  },
+  "failure": {
+    "samples": 26460,
+    "seconds": 1.2,
+    "peak": 0.11863744818203027,
+    "rms": 0.041167983038318354,
+    "loop": false,
+    "join_step": 0.0
+  }
+}

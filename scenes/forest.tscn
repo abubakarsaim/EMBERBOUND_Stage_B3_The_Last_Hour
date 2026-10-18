@@ -1,0 +1,86 @@
+[gd_scene load_steps=17 format=3]
+[ext_resource type="Script" path="res://scripts/forest/forest_controller.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/forest/forest_world.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/shadow.tscn" id="4"]
+[ext_resource type="Script" path="res://scripts/forest/brazier_puzzle.gd" id="5"]
+[ext_resource type="Script" path="res://scripts/flame_system.gd" id="6"]
+[ext_resource type="Script" path="res://scripts/borrowed_time.gd" id="7"]
+[ext_resource type="Script" path="res://scripts/forest/forest_hud.gd" id="8"]
+[ext_resource type="Script" path="res://scripts/forest/forest_audio.gd" id="9"]
+[ext_resource type="Script" path="res://scripts/corruption.gd" id="10"]
+[ext_resource type="Script" path="res://scripts/forest/forest_effects.gd" id="11"]
+[ext_resource type="Script" path="res://scripts/presentation.gd" id="12"]
+[ext_resource type="Script" path="res://scripts/projectile_manager.gd" id="13"]
+[ext_resource type="Script" path="res://scripts/forest/forest_brazier.gd" id="14"]
+[ext_resource type="Script" path="res://scripts/forest/rune_stone.gd" id="15"]
+[ext_resource type="PackedScene" path="res://scenes/lamp.tscn" id="16"]
+[node name="Emberbound" type="Node"]
+process_mode = 3
+script = ExtResource("1")
+[node name="World" type="Node2D" parent="."]
+process_mode = 1
+script = ExtResource("2")
+[node name="CircleOfLight" type="Node2D" parent="World"]
+position = Vector2(3970,1300)
+z_index = 1
+script = ExtResource("5")
+[node name="Root" type="Node2D" parent="World/CircleOfLight"]
+position = Vector2(-140,100)
+script = ExtResource("14")
+symbol = 0
+[node name="Bell" type="Node2D" parent="World/CircleOfLight"]
+position = Vector2(110,100)
+script = ExtResource("14")
+symbol = 1
+[node name="Crown" type="Node2D" parent="World/CircleOfLight"]
+position = Vector2(0,-130)
+script = ExtResource("14")
+symbol = 2
+[node name="RootRune" type="Node2D" parent="World"]
+position = Vector2(1050,750)
+z_index = 1
+script = ExtResource("15")
+symbol = 0
+[node name="BellRune" type="Node2D" parent="World"]
+position = Vector2(2450,500)
+z_index = 1
+script = ExtResource("15")
+symbol = 1
+[node name="CrownRune" type="Node2D" parent="World"]
+position = Vector2(3050,2150)
+z_index = 1
+script = ExtResource("15")
+symbol = 2
+[node name="Shadow" parent="World" instance=ExtResource("4")]
+position = Vector2(140,2000)
+z_index = 2
+[node name="Knight" parent="World" instance=ExtResource("3")]
+position = Vector2(380,2000)
+z_index = 3
+[node name="Flame" type="Node" parent="."]
+script = ExtResource("6")
+[node name="BorrowedTime" type="Node" parent="."]
+script = ExtResource("7")
+[node name="Audio" type="Node" parent="."]
+script = ExtResource("9")
+[node name="HUD" type="CanvasLayer" parent="."]
+layer = 10
+script = ExtResource("8")
+[node name="Corruption" type="Node2D" parent="World"]
+script = ExtResource("10")
+z_index = 0
+[node name="WorldEffects" type="Node2D" parent="World"]
+script = ExtResource("11")
+z_index = 4
+[node name="Presentation" type="CanvasLayer" parent="."]
+script = ExtResource("12")
+layer = 2
+[node name="Projectiles" type="Node2D" parent="World"]
+script = ExtResource("13")
+z_index = 4
+
+[node name="Watchfire" parent="World" instance=ExtResource("16")]
+position = Vector2(380,1930)
+z_index = 1
+lit = true

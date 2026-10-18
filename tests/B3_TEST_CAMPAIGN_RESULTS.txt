@@ -1,0 +1,130 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Forest is the opening menu, with gameplay paused
+PASS Menu exposes campaign start and independent shrine/hall/boss testing
+PASS Forest starts under immediate control with entrance checkpoint
+PASS Original trees/ruins have collision and a bounded navigation grid
+PASS Original local forest ambience starts and loops
+PASS Footstep and rune feedback load locally
+PASS Forest retains responsive A3 movement speed
+PASS Forest diagonal movement remains normalized
+PASS Movement decelerates to rest
+PASS Forest boundary physically blocks the knight
+PASS Forest hunter charges a Shadow Flare outside sacred ground
+PASS Forest flare flies and damages the existing flame resource
+PASS Borrowed Time holds forest hunter and active flares
+PASS Forest pause freezes combat and flame timers
+PASS Retry clears projectiles, freeze and temporary torch damage
+PASS Watchfire creates an eighteen-second sacred refuge
+PASS Repeated interaction does not replay a burning watchfire's ignition
+PASS Temporary watchfire protection expires
+PASS Knight firelight reveals and records the nearby ROOT symbol
+PASS Reading ward suppresses ranged attacks and clears incoming flares
+PASS Sacred clue reading also rejects close flame strikes
+PASS Reading communicates explicit logical order
+PASS Corruption cannot obscure a sacred rune
+PASS Forest corruption works beyond the old shrine's rectangle
+PASS Entrance retry restores flame and remembers discovered inscriptions
+PASS Brazier gate requires all discoverable clues, preventing blind guessing
+PASS Correct partial brazier progress survives entrance checkpoint retry
+PASS Brazier court repels attacks and corruption during puzzle interaction
+PASS Actual input traverses ruined path from watchfire to root memorial
+PASS First landmark discovers only its own clue
+PASS Actual input reaches the fallen bell via the northern road
+PASS Second landmark records BELL / SECOND
+PASS Actual input follows the eastern road to the royal tomb
+FOREST_HUNTER_AT_LAST_CLUE distance=628.706359863281 shots=3
+PASS All three clues are discoverable and retained in the visible journal
+PASS Hunter actively fires and leaves bounded corruption during the complete exploration route
+PASS Actual input reaches the brazier court without maze backtracking
+PASS Closed thorn gate physically blocks progression
+PASS Player can reach the crown brazier before solving
+PASS Wrong order gives feedback with no flame penalty
+PASS Input route plus ROOT > BELL > CROWN solves all braziers
+PASS Completion opens gate, restores fire and commits post-puzzle checkpoint
+PASS All three braziers ignite and the magical gate has audio feedback
+SCRIPTED_FOREST_TRAVERSAL_SECONDS 49.9166666666651 (known route; excludes first-time discovery decisions)
+PASS Post-puzzle retry respawns at court and retains solved gate
+PASS Checkpoint does not duplicate enemies or projectiles
+PASS Zero flame triggers forest failure
+PASS Opened gate can be crossed using collision physics
+PASS Forest automatically transitions into the original playable shrine
+PASS Chapter handoff retains independent audio settings
+PASS Scene transition leaves exactly one audio director
+PASS Chapter handoff carries flame and creates no stale attacks
+PASS Campaign shrine remains traversable with original movement and checkpoint
+PASS Campaign reaches second western shrine lamp
+PASS Campaign reaches shrine's final sealing lamp
+PASS Existing Circle of Light remains solvable after forest progression
+PASS Campaign shrine leads automatically to the Royal Hall
+PASS Three-chapter progression keeps exactly one active audio director
+PASS Shrine-to-hall handoff preserves flame and audio settings
+PASS HUD prominently states the first rescue mission
+PASS Hall gives control with Rescue the Princess as the first mission
+PASS Input route approaches the princess at the throne
+PASS Princess requests the flame at the altar; mission updates with a concrete reason
+PASS Essential mission dialogue stops flame, AI and projectiles
+PASS Input route reaches the requested royal altar
+PASS Altar warns of darkness and gives a reason to restore the mirror instead of surrendering fire
+PASS Altar warning automatically changes the prominent objective to restoring truth
+PASS Input route reaches the living-fire font
+PASS Fire ignites a visible, initially misdirected light path
+PASS First reflector is physically reachable
+PASS Rotating the first face redirects actual beam geometry north into the second reflector
+PASS Input route follows the beam to the second reflector
+PASS Second reflector completes source > I > II > mirror without a hidden item/order condition
+PASS The illuminated royal mirror can be reached from the reflectors
+PASS Examining the restored reflection exposes the imitation and begins the apparition mission
+PASS A single apparition replaces the hunter during the encounter, preventing double attacks
+PASS Mirror exposure automatically advances the HUD to the binding mission
+PASS Player can reach the binding seal while the apparition is active
+PASS Fire ignites the royal seal and creates its gold-heart recovery refuge
+PASS The apparition can be lured fully inside the active light seal
+PASS Existing Borrowed Time spends fifteen flame and immobilizes the apparition
+PASS Final interaction only succeeds after Fire, shadow inside, and Time hold
+PASS Breaking the illusion releases a royal sigil and the short true-princess story
+PASS The sigil has a concrete next use: the chamber remains sealed until the player brings it
+PASS Released sigil automatically gives the real-princess rescue objective
+PASS Input route carries the released sigil to the eastern passage
+PASS Royal sigil interaction unlocks the Hourkeeper passage and commits the final checkpoint
+PASS Campaign royal sigil exit loads the playable Hourkeeper chapter
+KNOWN_MISSION_ROUTE_SECONDS 32.3499999999994 (automated known solution, not human first-time pacing)
+PASS Boss chapter gives immediate control after its skippable arrival
+PASS Real princess is visibly imprisoned and the earned sigil reaches B3
+PASS First boss objective explains the two prison anchors
+PASS Input traversal reaches the west Chrono Anchor through actual arena collisions
+PASS A real telegraphed attack and recovery expose the anchors
+PASS E begins a timed flame channel rather than instantly disabling an anchor
+PASS Stationary channel disables the first prison chain
+PASS Player can cross the clock court to the second anchor
+PASS Both anchors weaken the prison and start the clock-core phase
+PASS HUD automatically advances to the Time barrier objective
+PASS Core focus remains reachable during the live encounter
+PASS Gold hand alignment and Time recovery provide a reachable core opportunity 1
+PASS Standard fifteen-flame Borrowed Time exposes the correctly aligned clock barrier
+PASS Short channel registers core strike 1
+PASS A single Time opening cannot be used for both core strikes
+PASS Gold hand alignment and Time recovery provide a reachable core opportunity 2
+PASS Standard fifteen-flame Borrowed Time exposes the correctly aligned clock barrier
+PASS Short channel registers core strike 2
+PASS Boss defeat leaves a playable rescue mission instead of ending the game
+PASS Boss defeat permanently stops hostile attacks and clears lingering flares
+PASS Actual input reaches the prison's royal lock after victory
+PASS Royal sigil interaction deliberately starts the princess release animation
+PASS Release animation frees the real princess and explains the final dawn mission
+PASS Knight remains controllable and reaches the revealed Eternal Flame pedestal
+PASS First offering interaction explains its cost without accidentally consuming the flame
+PASS Second deliberate interaction earns the final cinematic
+PASS Complete playable mission sequence reaches dawn and ending credits
+PASS Bittersweet ending returns the ember, lays the knight to rest and brings the princess to him
+PASS Sunrise and final EMBERBOUND title render as the earned conclusion
+PASS Ending screen includes actual development credits
+KNOWN_BOSS_ROUTE_SECONDS 44.7666666666654 (known strategy; excludes manual dialogue/cinematic)
+PASS Victory Play Again starts a fresh forest immediately, clearing old puzzle progress
+PASS Campaign title returns to the forest menu
+PASS Independent shrine development entry remains available
+119 passed / 0 failed
+WARNING: Camera2D overridden to physics process mode due to use of physics interpolation.
+     at: _update_process_callback (scene/2d/camera_2d.cpp:88)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/test_forest.gd:17)

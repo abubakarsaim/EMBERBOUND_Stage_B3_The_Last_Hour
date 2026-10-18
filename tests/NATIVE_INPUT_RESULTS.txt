@@ -1,0 +1,34 @@
+PASS Native menu mouse opens the independent Hourkeeper test
+PASS Native E advances boss dialogue once
+PASS Native Enter advances boss dialogue once
+PASS Native Q skips arrival and restores control
+PASS Native w moves correctly in the boss arena
+PASS Native s moves correctly in the boss arena
+PASS Native a moves correctly in the boss arena
+PASS Native d moves correctly in the boss arena
+PASS Native Up moves correctly in the boss arena
+PASS Native Down moves correctly in the boss arena
+PASS Native Left moves correctly in the boss arena
+PASS Native Right moves correctly in the boss arena
+PASS Native Escape pauses boss gameplay
+PASS Native mouse adjusts boss music
+PASS Native mouse adjusts boss sound effects
+PASS Native Escape resumes boss gameplay
+PASS Native M mutes new music voices
+PASS Native M restores music voices
+PASS Native E completes the short Chrono Anchor channel
+PASS Native R preserves completed anchor checkpoint
+PASS Native Space freezes aligned clock barrier and exposes core
+PASS Native E channels a real core strike
+PASS Native R restores the phase-two checkpoint
+PASS Native E uses royal sigil and releases princess
+PASS Native E advances the emotional rescue dialogue
+PASS Native first E reads offering warning without starting ending
+PASS Native second E deliberately returns the Eternal Flame
+PASS Native Escape safely pauses the cinematic
+PASS Native Escape resumes the cinematic
+PASS Native Q reaches final credits and saved session completion
+PASS Native R after credits restores a playable final-offering checkpoint
+0 native input failures
+
+Linux virtual X11 display; actual keyboard/mouse events. Explicit fixtures isolate new mechanics; this is not a human playthrough.

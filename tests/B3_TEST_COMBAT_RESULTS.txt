@@ -1,0 +1,46 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Eight additional combat, fire and transition cue mappings load locally
+PASS Both music stems start automatically during gameplay
+PASS Exploration stream is configured to loop
+PASS Exploration and pursuit loops have matching 24-second lengths
+PASS Fire ambience is configured to loop
+PASS Hunter visibly charges before releasing its first flare
+PASS Warning mark locks to its initial position rather than homing
+PASS Charge transitions through attack and recovery with one projectile
+PASS Moving off the warning mark dodges the flare
+PASS Actual projectile collision removes exactly five flame
+PASS Flare hit produces a temporary torch-radius dip
+PASS Shared post-hit immunity prevents immediate repeat flame damage
+PASS Torch radius recovers to its remaining-flame value without a permanent penalty
+PASS Borrowed Time holds a charging hunter without releasing a flare
+PASS Freeze preserves the remaining charge and attack interval
+PASS An interrupted charge resumes and completes after time unfreezes
+PASS Borrowed Time freezes active projectile position, animation age and lifetime
+PASS Pause preserves frozen projectiles and the freeze timer
+PASS Frozen projectile resumes its original flight after Borrowed Time
+PASS Knight can escape the projectile during freeze; only the ability's 15 flame is spent
+PASS Protected shrine suspends new ranged attacks
+PASS Incoming flares dissolve without damage in protected puzzle space
+PASS Closed gate blocks a projectile using real environment collision
+PASS Projectile population is capped at four
+PASS Expired missed projectiles are removed
+PASS Restart removes projectiles and resets attack counters
+PASS Restart resets charging, first-attack grace and temporary light effects
+PASS Default timing produces two fair five-flame hits over 15.5 seconds, not projectile spam
+PASS First lamp ignition requests fire audio immediately; an already-lit lamp does not replay it
+PASS Lamp uses the original fire-ignition WAV alongside its visual ignition pulse
+PASS Final sealing lamp also plays the fire-ignition cue exactly once
+PASS Circle completion requests both the gate unlock and puzzle completion cues
+PASS Separate music and SFX controls update independently
+PASS Pause requests a quiet music transition
+PASS Resume restores the gameplay mix
+PASS Failure requests music fade-out
+PASS Retry restarts the gameplay music state
+PASS Victory requests music fade-out
+PASS Title screen does not retain the pursuit music state
+39 passed / 0 failed
+WARNING: Camera2D overridden to physics process mode due to use of physics interpolation.
+     at: _update_process_callback (scene/2d/camera_2d.cpp:88)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/test_combat.gd:11)

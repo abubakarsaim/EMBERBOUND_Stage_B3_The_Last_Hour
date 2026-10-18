@@ -1,0 +1,8 @@
+Godot 4.7.2-stable (official) / Dummy audio driver
+PASS Both stems remain playing after crossing their loop boundary
+PASS Both stem playback positions wrap to the beginning
+PASS Music stems remain synchronized within one audio block
+PASS Danger layer ramps up and down rather than switching abruptly
+PASS Menu fade reaches silence and stops both music players
+Playback positions after wrap: 0.4488 / 0.4488 seconds
+5 passed / 0 failed

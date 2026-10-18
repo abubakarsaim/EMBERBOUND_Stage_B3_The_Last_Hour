@@ -1,0 +1,12 @@
+Godot 4.7.2.stable.official.ed1daf0bf
+PASS Final source and fresh ZIP extraction import without script/resource errors.
+PASS All eleven suites pass in source and fresh extraction: 458 assertions per pass.
+PASS Complete actual-input forest/shrine/hall/boss/rescue/offering/ending campaign route.
+PASS 31 native X11 keyboard/mouse checks, with explicit new-mechanic fixtures.
+PASS 18 scripted rendered captures inspected; ending reached COMPLETE / dawn 1.0.
+PASS 224 literal local resource references resolve; original input mappings unchanged.
+PASS 42 local WAV headers/peaks and four B3 music splice endpoints verified; real-time mixer tests pass.
+PASS 81 foundation resources byte-identical; earlier B2-redesign/B2/B1 ZIP hashes unchanged.
+PASS Final ZIP CRC and every archived file match final source bytes.
+Expected Camera2D physics-interpolation mode warning; virtual Mesa driver cannot change VSync mode.
+No human Windows playthrough, audible mix quality, measured FPS or first-time pacing claim.

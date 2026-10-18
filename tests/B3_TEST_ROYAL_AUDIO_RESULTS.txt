@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Royal music, darker stem and hall ambience continue across loop seams
+PASS Royal music and ambience actually wrap their local WAV loop boundaries
+PASS Royal exploration and revelation music stems stay synchronized
+PASS Revelation smoothly introduces the darker music layer
+PASS Original door, mirror, seal, dialogue, distortion and passage cues reach audio playback
+PASS Dialogue gently ducks the hall music and ambience
+PASS Mute affects both new hall ambience and music
+PASS End-of-chapter transition fades out and stops new music/ambience
+8 passed / 0 failed
+WARNING: Camera2D overridden to physics process mode due to use of physics interpolation.
+     at: _update_process_callback (scene/2d/camera_2d.cpp:88)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/test_royal_audio.gd:4)

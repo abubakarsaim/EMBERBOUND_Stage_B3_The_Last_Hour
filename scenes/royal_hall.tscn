@@ -1,0 +1,78 @@
+[gd_scene load_steps=18 format=3]
+[ext_resource type="Script" path="res://scripts/royal/royal_controller.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/royal/royal_world.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/shadow.tscn" id="4"]
+[ext_resource type="Script" path="res://scripts/royal/royal_mystery.gd" id="5"]
+[ext_resource type="Script" path="res://scripts/flame_system.gd" id="6"]
+[ext_resource type="Script" path="res://scripts/borrowed_time.gd" id="7"]
+[ext_resource type="Script" path="res://scripts/royal/royal_hud.gd" id="8"]
+[ext_resource type="Script" path="res://scripts/royal/royal_audio.gd" id="9"]
+[ext_resource type="Script" path="res://scripts/corruption.gd" id="10"]
+[ext_resource type="Script" path="res://scripts/royal/royal_effects.gd" id="11"]
+[ext_resource type="Script" path="res://scripts/royal/royal_presentation.gd" id="12"]
+[ext_resource type="Script" path="res://scripts/projectile_manager.gd" id="13"]
+[ext_resource type="Script" path="res://scripts/royal/princess.gd" id="14"]
+[ext_resource type="Script" path="res://scripts/royal/dialogue.gd" id="15"]
+[ext_resource type="PackedScene" path="res://scenes/lamp.tscn" id="16"]
+[ext_resource type="Script" path="res://scripts/royal/apparition_encounter.gd" id="17"]
+[node name="Emberbound" type="Node"]
+process_mode = 3
+script = ExtResource("1")
+[node name="World" type="Node2D" parent="."]
+process_mode = 1
+script = ExtResource("2")
+[node name="CircleOfLight" type="Node2D" parent="World"]
+z_index = 1
+script = ExtResource("5")
+[node name="Shadow" parent="World" instance=ExtResource("4")]
+position = Vector2(1100,2060)
+z_index = 2
+[node name="Knight" parent="World" instance=ExtResource("3")]
+position = Vector2(1536,2200)
+z_index = 3
+[node name="Flame" type="Node" parent="."]
+script = ExtResource("6")
+[node name="BorrowedTime" type="Node" parent="."]
+script = ExtResource("7")
+[node name="Audio" type="Node" parent="."]
+script = ExtResource("9")
+[node name="HUD" type="CanvasLayer" parent="."]
+layer = 10
+script = ExtResource("8")
+[node name="Corruption" type="Node2D" parent="World"]
+script = ExtResource("10")
+z_index = 0
+[node name="WorldEffects" type="Node2D" parent="World"]
+script = ExtResource("11")
+z_index = 4
+[node name="Presentation" type="CanvasLayer" parent="."]
+script = ExtResource("12")
+layer = 2
+[node name="Projectiles" type="Node2D" parent="World"]
+script = ExtResource("13")
+z_index = 4
+
+[node name="Princess" type="Node2D" parent="World"]
+position = Vector2(1536,780)
+z_index = 3
+script = ExtResource("14")
+[node name="IntroCamera" type="Camera2D" parent="World"]
+position = Vector2(1536,2200)
+enabled = false
+physics_interpolation_mode = 2
+limit_left = 0
+limit_top = 0
+limit_right = 3072
+limit_bottom = 2496
+[node name="Watchfire" parent="World" instance=ExtResource("16")]
+position = Vector2(1536,2130)
+z_index = 1
+lit = true
+[node name="Dialogue" type="CanvasLayer" parent="."]
+layer = 15
+script = ExtResource("15")
+
+[node name="ApparitionEncounter" type="Node2D" parent="World"]
+z_index = 4
+script = ExtResource("17")

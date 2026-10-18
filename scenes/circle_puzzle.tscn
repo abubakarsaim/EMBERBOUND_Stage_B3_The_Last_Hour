@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/circle_puzzle.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/lamp.tscn" id="2"]
+[node name="CircleOfLight" type="Node2D"]
+script = ExtResource("1")
+[node name="WestNorthLamp" parent="." instance=ExtResource("2")]
+position = Vector2(-110,-105)
+[node name="WestSouthLamp" parent="." instance=ExtResource("2")]
+position = Vector2(-110,105)
+[node name="SealLamp" parent="." instance=ExtResource("2")]
+position = Vector2(100,0)
+final_lamp = true
